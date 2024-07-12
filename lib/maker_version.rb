@@ -1,0 +1,2 @@
+class MakerVersion
+end
