@@ -31,10 +31,12 @@ class Mastermind
 
     if game_mode == '1'
       puts '  You chose to be the breaker of the code!'
-      # breaker_version.play
+      breaker_version = BreakerVersion.new
+      breaker_version.play
     else
-      puts '  You chose to be the maker of the code!'
-      # maker_version.play
+      # puts '  You chose to be the maker of the code!'
+      maker_version = MakerVersion.new
+      maker_version.play
     end
   end
 end
